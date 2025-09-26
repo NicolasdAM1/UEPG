@@ -9,7 +9,7 @@ int main ()
 
    /*Ex.: 1
     int N;
-    printf("Digite um número inteiro positivo:\n");
+    printf("Digite um nï¿½mero inteiro positivo:\n");
     scanf("%d",&N);
     for(int m = 0; m <= N; m++){
         printf("%d\n",m);
@@ -17,7 +17,7 @@ int main ()
 
    /*Ex.: 2
     int N;
-    printf("Digite um número inteiro positivo:\n");
+    printf("Digite um nï¿½mero inteiro positivo:\n");
     scanf("%d",&N);
     for(int m = N; m >= 0; m--){
         printf("%d\n",m);
@@ -25,7 +25,7 @@ int main ()
 
    /*Ex.: 3
     int N, l = 1;
-    printf("Digite um número inteiro positivo:\n");
+    printf("Digite um nï¿½mero inteiro positivo:\n");
     scanf("%d",&N);
     l = N * 2;
     for(int m = 1; m <= N; m++){
@@ -64,9 +64,9 @@ int main ()
         printf("FIM!");
     }*/
 
-   /*Ex.: 7
+   //Ex.: 7
     int N, num = 1;
-    printf("Digite um número inteiro positivo:\n");
+    printf("Digite um nï¿½mero inteiro positivo:\n");
     scanf("%d",&N);
     for(int m = 1; m <= N; m++){
         for(int l = 1; l <= m; l++){
@@ -74,11 +74,11 @@ int main ()
             num++;
         }
         printf("\n");
-    }*/
+    } 
 
    /*Ex.: 8
     int a, c = 1;
-    printf("Digite um número inteiro maior que 1:\n");
+    printf("Digite um nï¿½mero inteiro maior que 1:\n");
     scanf("%d",&a);
     for(int b = 2; b < a; b++){
         if(a%b==0){
@@ -86,8 +86,8 @@ int main ()
             break;
         }
     }
-    if(c==1){printf("É primo");
-    }else{printf("Não é primo");}*/
+    if(c==1){printf("ï¿½ primo");
+    }else{printf("Nï¿½o ï¿½ primo");}*/
 
 
     return 0;

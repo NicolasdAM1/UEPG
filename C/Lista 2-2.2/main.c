@@ -28,7 +28,7 @@ int main()
 
  /*Ex.: 3
  printf("O valor %d e um numero em ponto flutuante",3.3);*/
- //Para representar um número em ponto flutuante, o correto é usar "%f".
+ //Para representar um nï¿½mero em ponto flutuante, o correto ï¿½ usar "%f".
 
  /*Ex.: 4
  printf("%f+%f=%f\n",3.3,4.4,3.3+4.4);
@@ -47,7 +47,7 @@ int main()
  /*Ex.: 6
  int idade;
  idade=30;
- printf("mínima idade é: %d",idade);*/
+ printf("mï¿½nima idade ï¿½: %d",idade);*/
 
  /*Ex.: 7
  int x;
@@ -56,7 +56,7 @@ int main()
  y=3*4.5;
  printf("%d*4.5=%f",x,y);*/
 
- /*Ex.: 8
+ //Ex.: 8
 _Bool a;
 char b;
 unsigned char c;
@@ -90,14 +90,14 @@ printf ("\n\nlong -> %d ", z2);
 printf ("\n\nunsigned long -> %u ", z3);
 printf ("\n\nfloat -> %f ", r);
 printf ("\n\ndouble -> %e ", r1);
-getch();*/
+getch();
 
 
 
  //Lista 2.2:
 
  /*Ex.: 1
-  printf("Início do programa\nFim\n");*/
+  printf("Inï¿½cio do programa\nFim\n");*/
 
  /*Ex.: 2
   int var;
@@ -144,7 +144,7 @@ getch();*/
 
  /*Ex.: 10
   int D, M, A;
-  printf("DIGITE UMA DATA, PRESSIONE 'ENTER', UM MÊS, PRESSIONE 'ENTER' E POR ÚLTIMO UM ANO E PRESSIONE 'ENTER'.\n");
+  printf("DIGITE UMA DATA, PRESSIONE 'ENTER', UM Mï¿½S, PRESSIONE 'ENTER' E POR ï¿½LTIMO UM ANO E PRESSIONE 'ENTER'.\n");
   scanf("%d",&D);
   scanf("%d",&M);
   scanf("%d",&A);

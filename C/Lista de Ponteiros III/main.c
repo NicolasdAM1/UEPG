@@ -20,8 +20,31 @@ int main(){
         printf("%p\n", p + i);
     } */
 
-   //Ex.: 3
-     
+   /*Ex.: 3
+     int array[5];
+     int *p = array;
+     for(int i = 0; i <= 4; i++){
+        printf("Digite um valor inteiro:\n> ");
+        scanf("%d",&*(p + i));
+     }
+     for(p = array; p < array + 5; p++){
+        printf("Dobro: %d\n",(*p) * 2);
+     }*/
+
+   //Ex.: 4
+    int array[5];
+    int *p = array;
+    for(int i = 0; i <= 4; i++){
+        printf("Digite um valor inteiro:\n> ");
+        scanf("%d", &*(p + i));
+    } 
+    p = array;
+    for(p = array; p < array + 5; p++){
+        if(*p % 2 == 0){
+            int pos = p - array;
+            printf("Posição %d - Endereço: %p\n", pos, p);
+        }
+    }
 
 
 

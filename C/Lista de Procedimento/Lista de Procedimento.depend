@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1755557279 source:c:\lista de procedimento\main.c
-	<stdio.h>
-	<stdlib.h>
-	<math.h>
-	<string.h>
-	<locale.h>
-

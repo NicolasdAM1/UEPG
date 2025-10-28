@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1748360841 source:c:\lista de vetor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+

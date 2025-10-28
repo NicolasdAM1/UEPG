@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1748963854 source:c:\lista matrizes\main.c
-	<stdio.h>
-	<stdlib.h>
-	<math.h>
-	<locale.h>
-

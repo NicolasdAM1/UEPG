@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1754418298 source:c:\lista de struct\main.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	<locale.h>
-	<math.h>
-	<stdbool.h>
-

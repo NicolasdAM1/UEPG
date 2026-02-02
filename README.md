@@ -1,2 +1,2 @@
 # UEPG
-Códigos/atividades/trabalhos realizados na UEPG pela disciplina Programação de Computadores I  
+Códigos/atividades/trabalhos realizados na UEPG para a disciplina de Programação de Computadores I  

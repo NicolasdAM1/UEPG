@@ -1,2 +1,5 @@
 # UEPG
-Códigos/atividades/trabalhos realizados na UEPG para a disciplina de Programação de Computadores I  
+Códigos/atividades/trabalhos realizados na UEPG em suas devidas disciplinas.
+`C` - Programação de Computadores I
+`C++` - Estrutura de Dados
+`Java` - Programação de Computadores II

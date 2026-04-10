@@ -56,7 +56,7 @@ int main()
         }
     }
     printf("Nova string: %s\n",A);
-    printf("Número de vogais: %d",nv);*/
+    printf("Nï¿½mero de vogais: %d",nv);*/
 
    /*Ex.: 4
     char A[50];
@@ -75,9 +75,9 @@ int main()
         j--;
     }
     if(Palindromo){
-            printf("É um palíndromo\n");
+            printf("ï¿½ um palï¿½ndromo\n");
     }else{
-        printf("Não é um palíndromo\n");
+        printf("Nï¿½o ï¿½ um palï¿½ndromo\n");
     }*/
 
    /*Ex.: 5
@@ -88,9 +88,9 @@ int main()
     printf("Digite a segunda string:\n");
     fgets(B, sizeof(B), stdin);
     if(strstr(A, B) != NULL){
-        printf("A segunda string está contida na primeira\n");
+        printf("A segunda string estï¿½ contida na primeira\n");
     }else{
-        printf("A segunda string não está contida na primeira\n");
+        printf("A segunda string nï¿½o estï¿½ contida na primeira\n");
     }*/
 
    //Ex.: 6
@@ -104,7 +104,7 @@ int main()
             A[i] = A[i] - 32;
         }
     }
-    printf("String em maiúsculas: %s\n", A);*/
+    printf("String em maiï¿½sculas: %s\n", A);*/
 
    /*Ex.: 8
     char A[100];
@@ -115,7 +115,7 @@ int main()
             A[i] += 32;
         }
     }
-    printf("String em minúsculas: %s",A);*/
+    printf("String em minï¿½sculas: %s",A);*/
 
    /*Ex.: 9
     char nome[100];
@@ -129,7 +129,7 @@ int main()
     printf("Mercadoria: %s\n", nome);
     printf("Valor total: R$ %.2f\n", valor);
     printf("Desconto (10%%): R$ %.2f\n", desconto);
-    printf("Valor a pagar à vista: R$ %.2f\n", vf);*/
+    printf("Valor a pagar ï¿½ vista: R$ %.2f\n", vf);*/
 
    /*Ex.: 10
     char S[100];
@@ -139,7 +139,7 @@ int main()
     printf("Digite os valores de i e j (i <= j):\n");
     scanf("%d %d", &i, &j);
     int tamanho = strlen(S);
-    printf("Segmento de S entre os índices %d e %d: ",i,j);
+    printf("Segmento de S entre os ï¿½ndices %d e %d: ",i,j);
     for (int k = i; k <= j; k++){
         putchar(S[k]);
     }
@@ -165,9 +165,9 @@ int main()
     printf("Digite a segunda string (B):\n");
     fgets(B, sizeof(B), stdin);
     if (strcmp(A, B) < 0) {
-        printf("Ordem alfabética:\n%s\n%s\n", A, B);
+        printf("Ordem alfabï¿½tica:\n%s\n%s\n", A, B);
     } else {
-        printf("Ordem alfabética:\n%s\n%s\n", B, A);
+        printf("Ordem alfabï¿½tica:\n%s\n%s\n", B, A);
     }*/
 
 

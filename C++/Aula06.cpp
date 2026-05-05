@@ -35,4 +35,18 @@ void imprime(){
         cout << "Pilha Vazia";
         return;
     }
+    aux = pilha;
+    while(aux != NULL){
+        cout << aux ->dado << " ";
+        aux = aux -> prox;
+    }
+}
+
+void topo(){
+    struct no *apaga;
+    if(pilha == NULL){
+        cout << "Pilha Vazia";
+        return;
+    }
+    cout << pilha -> dado << endl;
 }
